@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Art</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- bootstrap 3.3.7 -->
+	<script src="Bootstrap/js/jquery-3.3.1.min.js"></script>
+  <script src="Bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet"/>  
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="./js/logic.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+	<style type="text/css">
+		.borderless td, .borderless th {
+    	border: none!important;
+		}
+	</style>
+</head>
+<body oncontextmenu="return false;">
+	
+	<div class="wrapper">	
+		<div class="container"><!-- main page-->
+
+			<div class="row">
+				<div class="col-md-12">
+				  <header id="header">
+
+
+				    <div class="item active">
+				      <img class="coverImg" src="cover.jpg">
+				    </div>
+
+						<nav class="navbar navbar-default">
+				      <!-- Brand and toggle get grouped for better mobile display -->
+				      <div class="navbar-header">
+
+				        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainNav">
+				          <span class="sr-only">Toggle navigation</span>
+				          <span class="icon-bar"></span>
+				          <span class="icon-bar"></span>
+				          <span class="icon-bar"></span>
+				        </button>
+				        <a class="navbar-brand" href="#"><img class="img-responsive" src="photo.jpg"></a>
+				        <span class="site-name"><b>Abdul Naser Sawaby</b></span>
+				        <span class="site-description">Fine Arts</span>
+				      </div>
+				  
+				      <!-- Collect the nav links, forms, and other content for toggling -->
+				      <div class="collapse navbar-collapse" id="mainNav">
+				        <ul class="nav main-menu navbar-nav">
+				          <li><a href="./index.htm" id="home"><i class="fa fa-home"></i>Home</a></li>
+				          <li><a href="#" id="bio" onclick="loadPage('./Profile.htm');">About</a></li>
+				          <li><a href="#" id="exhi" onclick="loadPage('././Exhibition.htm');">Exhibitions</a></li>
+				          <li><a href="#" id="artWork" onclick="loadPage('./ArtworkASList.htm');">Artworks Archive</a></li>
+				          <li><a href="#" id="blog" onclick="loadPage('./blog.htm');">Blog</a></li>
+				          <li><a href="#" id="cntcts" onclick="loadPage('./Contacts.htm');">Contacts</a></li>
+				        </ul>
+				        
+				         <ul class="nav navbar-nav navbar-right">
+				          <li><a href="https://www.facebook.com/nasersawaby"><i class="fa fa-facebook"></i></a></li>
+				          <li><a href="https://twitter.com/nasersawaby"><i class="fa fa-twitter"></i></a></li>
+				          <li><a href="https://www.linkedin.com/in/abdul-naser-sawaby-90012673/?originalSubdomain=af"><i class="fa fa-linkedin"></i></a></li>
+				        </ul>
+				      </div><!-- /.navbar-collapse -->
+						</nav>  
+	        </header><!--/#HEADER-->
+	      </div> 
+	    </div> <!-- row -->
+	<!-- row 1 -->
+			<div class="row imgSection"  id="toBRemove">
+
+				<div class="col-md-12 table-responsive">
+					<table class="table borderless">
+						<tr scope="row">
+							<td>
+								<img class="imgSize" src="art1s.jpg" onClick="changeComponent('art1');" alt="Card image cap">
+							</td>
+							<td>
+								<img class="imgSize" src="art2s.jpg" onClick="changeComponent('art2');" alt="Card image cap">
+							</td>
+							<td>
+							 	<img class="imgSize" src="art3s.jpg" onClick="changeComponent('art3');" alt="Card image cap">
+							</td>
+							<td>
+							 	<img class="imgSize" src="art4s.jpg" onClick="changeComponent('art4');" alt="Card image cap">
+							</td>
+						  <td>
+						   	<img class="imgSize" src="art5s.jpg" onClick="changeComponent('art5');" alt="Card image cap">
+						  </td>
+						  <td>
+						   	<img class="imgSize" src="art6s.jpg" onClick="changeComponent('art6');" alt="Card image cap">
+						  </td>
+						  <td>
+						   	<img class="imgSize" src="art3s.jpg" onClick="changeComponent('art3');" alt="Card image cap">
+						  </td>
+						  <td>
+						   	<img class="imgSize" src="art4s.jpg" onClick="changeComponent('art4');" alt="Card image cap">
+						  </td>
+					    <td>
+					     	<img class="imgSize" src="art5s.jpg" onClick="changeComponent('art5');" alt="Card image cap">
+					    </td>
+						  <td>
+						   	<img class="imgSize" src="art6s.jpg" onClick="changeComponent('art6');" alt="Card image cap">
+						  </td>
+						</tr>
+						<tr scope="row">
+							<td>
+								<img class="imgSize" src="art1s.jpg" onClick="changeComponent('art1');" alt="Card image cap">
+							</td>
+							<td>
+								<img class="imgSize" src="art2s.jpg" onClick="changeComponent('art2');" alt="Card image cap">
+							</td>
+							<td>
+							 	<img class="imgSize" src="art3s.jpg" onClick="changeComponent('art3');" alt="Card image cap">
+							</td>
+							<td>
+							 	<img class="imgSize" src="art4s.jpg" onClick="changeComponent('art4');" alt="Card image cap">
+							</td>
+						  <td>
+						   	<img class="imgSize" src="art5s.jpg" onClick="changeComponent('art5');" alt="Card image cap">
+						  </td>
+						  <td>
+						   	<img class="imgSize" src="art6s.jpg" onClick="changeComponent('art6');" alt="Card image cap">
+						  </td>
+						  <td>
+						   	<img class="imgSize" src="art3s.jpg" onClick="changeComponent('art3');" alt="Card image cap">
+						  </td>
+						  <td>
+						   	<img class="imgSize" src="art4s.jpg" onClick="changeComponent('art4');" alt="Card image cap">
+						  </td>
+					    <td>
+					     	<img class="imgSize" src="art5s.jpg" onClick="changeComponent('art5');" alt="Card image cap">
+					    </td>
+						  <td>
+						   	<img class="imgSize" src="art6s.jpg" onClick="changeComponent('art6');" alt="Card image cap">
+						  </td>
+						</tr>
+						<tr  scope="row">
+							<td>
+								<img class="imgSize" src="art1s.jpg" onClick="changeComponent('art1');" alt="Card image cap">
+							</td>
+							<td>
+								<img class="imgSize" src="art2s.jpg" onClick="changeComponent('art2');" alt="Card image cap">
+							</td>
+							<td>
+							 	<img class="imgSize" src="art3s.jpg" onClick="changeComponent('art3');" alt="Card image cap">
+							</td>
+							<td>
+							 	<img class="imgSize" src="art4s.jpg" onClick="changeComponent('art4');" alt="Card image cap">
+							</td>
+						  <td>
+						   	<img class="imgSize" src="art5s.jpg" onClick="changeComponent('art5');" alt="Card image cap">
+						  </td>
+						  <td>
+						   	<img class="imgSize" src="art6s.jpg" onClick="changeComponent('art6');" alt="Card image cap">
+						  </td>
+						  <td>
+						   	<img class="imgSize" src="art3s.jpg" onClick="changeComponent('art3');" alt="Card image cap">
+						  </td>
+						  <td>
+						   	<img class="imgSize" src="art4s.jpg" onClick="changeComponent('art4');" alt="Card image cap">
+						  </td>
+					    <td>
+					     	<img class="imgSize" src="art5s.jpg" onClick="changeComponent('art5');" alt="Card image cap">
+					    </td>
+						  <td>
+						   	<img class="imgSize" src="art6s.jpg" onClick="changeComponent('art6');" alt="Card image cap">
+						  </td>
+						</tr>
+						<tr  scope="row">
+							<td>
+								<img class="imgSize" src="art1s.jpg" onClick="changeComponent('art1');" alt="Card image cap">
+							</td>
+							<td>
+								<img class="imgSize" src="art2s.jpg" onClick="changeComponent('art2');" alt="Card image cap">
+							</td>
+							<td>
+							 	<img class="imgSize" src="art3s.jpg" onClick="changeComponent('art3');" alt="Card image cap">
+							</td>
+							<td>
+							 	<img class="imgSize" src="art4s.jpg" onClick="changeComponent('art4');" alt="Card image cap">
+							</td>
+						  <td>
+						   	<img class="imgSize" src="art5s.jpg" onClick="changeComponent('art5');" alt="Card image cap">
+						  </td>
+						  <td>
+						   	<img class="imgSize" src="art6s.jpg" onClick="changeComponent('art6');" alt="Card image cap">
+						  </td>
+						  <td>
+						   	<img class="imgSize" src="art3s.jpg" onClick="changeComponent('art3');" alt="Card image cap">
+						  </td>
+						  <td>
+						   	<img class="imgSize" src="art4s.jpg" onClick="changeComponent('art4');" alt="Card image cap">
+						  </td>
+					    <td>
+					     	<img class="imgSize" src="art5s.jpg" onClick="changeComponent('art5');" alt="Card image cap">
+					    </td>
+						  <td>
+						   	<img class="imgSize" src="art6s.jpg" onClick="changeComponent('art6');" alt="Card image cap">
+						  </td>
+						</tr>
+						<tr  scope="row">
+							<td>
+								<img class="imgSize" src="art1s.jpg" onClick="changeComponent('art1');" alt="Card image cap">
+							</td>
+							<td>
+								<img class="imgSize" src="art2s.jpg" onClick="changeComponent('art2');" alt="Card image cap">
+							</td>
+							<td>
+							 	<img class="imgSize" src="art3s.jpg" onClick="changeComponent('art3');" alt="Card image cap">
+							</td>
+							<td>
+							 	<img class="imgSize" src="art4s.jpg" onClick="changeComponent('art4');" alt="Card image cap">
+							</td>
+						  <td>
+						   	<img class="imgSize" src="art5s.jpg" onClick="changeComponent('art5');" alt="Card image cap">
+						  </td>
+						  <td>
+						   	<img class="imgSize" src="art6s.jpg" onClick="changeComponent('art6');" alt="Card image cap">
+						  </td>
+						  <td>
+						   	<img class="imgSize" src="art3s.jpg" onClick="changeComponent('art3');" alt="Card image cap">
+						  </td>
+						  <td>
+						   	<img class="imgSize" src="art4s.jpg" onClick="changeComponent('art4');" alt="Card image cap">
+						  </td>
+					    <td>
+					     	<img class="imgSize" src="art5s.jpg" onClick="changeComponent('art5');" alt="Card image cap">
+					    </td>
+						  <td>
+						   	<img class="imgSize" src="art6s.jpg" onClick="changeComponent('art6');" alt="Card image cap">
+						  </td>
+						</tr>
+
+					</table>
+
+
+				</div>
+			</div>
+
+			<div class="row"  id="toRemove"  style="display: none;">
+
+				<div class="col-sm-3">
+					<div id="sidebar" class="sidebar-offcanvas">
+			      <div class="col-md-12">
+			        <h3 style="color: ">Artworks List</h3>
+			        <ul class="nav nav-pills nav-stacked">
+			          <li class="borderImg"><img class="card-img-top imgSizeNav" src="art1s.jpg" onClick="changeComponent('art1');" alt="Card image cap"></li>
+			          <li class="borderImg"><img class="card-img-top imgSizeNav" src="art2s.jpg" onClick="changeComponent('art2');" alt="Card image cap"></li>
+			          <li class="borderImg"><img class="card-img-top imgSizeNav" src="art3s.jpg" onClick="changeComponent('art3');" alt="Card image cap"></li>
+			          <li class="borderImg"><img class="card-img-top imgSizeNav" src="art4s.jpg" onClick="changeComponent('art4');" alt="Card image cap"></li>
+			          <li class="borderImg"><img class="card-img-top imgSizeNav" src="art5s.jpg" onClick="changeComponent('art5');" alt="Card image cap"></li>
+			          <li class="borderImg"><img class="card-img-top imgSizeNav" src="art6s.jpg" onClick="changeComponent('art6');" alt="Card image cap"></li>
+			          <li class="borderImg"><img class="card-img-top imgSizeNav" src="art5s.jpg" onClick="changeComponent('art5');" alt="Card image cap"></li>
+			          <li class="borderImg"><img class="card-img-top imgSizeNav" src="art6s.jpg" onClick="changeComponent('art6');" alt="Card image cap"></li>
+			          <li class="borderImg"><img class="card-img-top imgSizeNav" src="art5s.jpg" onClick="changeComponent('art5');" alt="Card image cap"></li>
+			          <li class="borderImg"><img class="card-img-top imgSizeNav" src="art6s.jpg" onClick="changeComponent('art6');" alt="Card image cap"></li>
+			          <li class="borderImg"><img class="card-img-top imgSizeNav" src="art5s.jpg" onClick="changeComponent('art5');" alt="Card image cap"></li>
+			          <li class="borderImg"><img class="card-img-top imgSizeNav" src="art6s.jpg" onClick="changeComponent('art6');" alt="Card image cap"></li>
+			        </ul>
+			      </div>
+				  </div>
+				</div>
+
+				<div class="col-md-8">	
+					<div class="card">
+				    <a class="lightbox" href="#zoomImg"><img class="card-img-top" src="" id="myImg" onClick="changeComponentZ(this.src);" alt="Card image cap"></a>
+				     <div class="card-body" style="text-align: center;">
+					    <h5 class="card-title">Image title</h5>
+					    <p class="card-text">Some Description of the Image.</p>
+					    <a href="#" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Contact Us</a>
+					  </div>
+				  </div>
+				</div>
+			</div> 
+
+		</div> <!-- container -->
+		<!-- zoom image -->	
+		<div class="lightbox-target" id="zoomImg">
+		  <img src="" id="myImgZ"/>
+		  <a class="lightbox-close" href="#"></a>
+		</div>
+
+		<div class="container">
+			<!-- Footer -->
+			<footer class="page-footer font-small">
+			  <!-- Copyright -->
+			  <div class="text-center" style="padding: 20px;">© 2019 Copyright:
+			    <a href="#">sawabyArt.com</a>
+			  </div>
+			  <!-- Copyright -->
+			</footer>
+			<!-- Footer -->
+
+		</div>
+		<!-- pop up contact modal --> 
+		<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		  <div class="modal-dialog modal-sm">  
+		    <div class="modal-content">
+		    <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel">Contact Us</h4>
+		      </div>
+		    	<div class="modal-body">
+        		<p>I appreciate your interest in my paintings. <br/> If you are interested in any of the artwork or need information, please contact us with either of the following contact information. </p>
+    				<ul style="list-style: none;">
+		          <li><i class="fa fa-phone">&nbsp;+93-700-40-8625</i></a></li>
+		          <li><i class="fa fa-envelope">&nbsp;info@sawaby.com</i></a></li>
+		          <li><i class="fa fa-envelope">&nbsp;nsawaby@gmail.com</i></a></li>
+		        </ul>
+      		</div>
+		    </div>
+		  </div>
+		</div>
+
+	</div> <!-- wrapper -->
+	<script type="text/javascript">
+		function changeComponent(srouce){
+			$("#toBRemove").remove();
+			$("#toRemove").show();
+			$("#toRemove").height(500);
+			switch (srouce) {
+				case "art1":
+						$("#myImg").attr('src', "./art1.jpg");
+						break;
+				case "art2":
+						$("#myImg").attr('src', "./art2.jpg");
+						break;
+				case "art3":
+						$("#myImg").attr('src', "./art3.jpg");
+						break;
+				case "art4":
+						$("#myImg").attr('src', "./art4.jpg");
+						break;
+				case "art5":
+						$("#myImg").attr('src', "./art5.jpg");
+						break;
+				case "art6":
+						$("#myImg").attr('src', "./art6.jpg");
+					
+			}
+		
+			// var mystring = String(_src).slice(0, -5)+".JPG"
+			//alert(mystring);
+		
+		}
+		function changeComponentZ(_src){
+			$("#myImgZ").attr('src', _src);
+		}
+	</script>
+</body>
+</html>

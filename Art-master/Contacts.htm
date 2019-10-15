@@ -1,0 +1,73 @@
+<link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style type="text/css">
+	#scream {
+  width: 150px;
+  -webkit-mask-image: -webkit-gradient(
+    linear, right top, left bottom, 
+    color-stop(1.00,  rgba(0,0,0,0)),
+    color-stop(0.65,  rgba(0,0,0,0)),
+    color-stop(0.50,  rgba(0,0,0,0)),
+    color-stop(0.65,  rgba(0,0,0,1)),
+    color-stop(0.30,  rgba(0,0,0,1)));
+	}
+</style>
+<div class="col-md-12" >
+	<div class="row">
+		<div class="col-md-12">
+			<canvas id="myCanvas" width="1000" height="600" style="position: absolute; right:0px; font-weight: bolder; ">
+				Your browser does not support the HTML5 canvas tag.</canvas>
+				<p style=" margin:0px; font-family: 'Courgette', cursive; font-size: 20px; width: 70%; left:0px; ">
+					I appreciate your interest in my paintings. <br/> If you are interested in any of the artwork or need information, please contact us with either of the following contact information.			
+				</p>
+	    	<ul style="list-style: none; font-size: 18px;">
+	        <li><i class="fa fa-phone">&nbsp;+93-700-40-8625</i></a></li>
+	        <li><i class="fa fa-envelope">&nbsp;info@sawaby.com</i></a></li>
+	        <li><i class="fa fa-envelope">&nbsp;nsawaby@gmail.com</i></a></li>
+	      </ul>
+		</div>
+	</div>
+
+</div>
+<!-- <div >
+<img id="scream" src="./art1.jpg" width="1000" height="600">
+</div> -->
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+// var img = document.getElementById("scream");
+//ctx.drawImage(img, 100, 100);
+// img.addEventListener('load', e => {
+//   ctx.drawImage(img, 8, 1);
+// });
+ctx.beginPath();
+ctx.lineWidth = 10;
+ctx.strokeStyle = "#808080";
+ctx.moveTo(10, 600);
+ctx.bezierCurveTo(
+	350, 100, //(200, 10)
+	350, 650, //(310, 500)
+	700, 0 //(600, 10)
+);
+ctx.stroke();
+ctx.closePath();
+
+ctx.beginPath();
+ctx.lineWidth = 10;
+ctx.strokeStyle = "#FF0000";
+
+ctx.moveTo(100, 500);
+ctx.bezierCurveTo(
+	350, 100, //(200, 10)
+	350, 650, //(310, 500)
+	700, 0 //(600, 10)
+);
+ctx.fillStyle = 'orange';
+ctx.fillStyle = '#FFA500';
+ctx.fillStyle = 'rgb(255, 165, 0)';
+ctx.fillStyle = 'rgba(255, 165, 0, 1)';
+
+ctx.stroke();
+</script> 
